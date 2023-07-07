@@ -1,16 +1,17 @@
 import { SplitScreen } from "./splitScreen"
 
 
-const LeftComponent = () => {
+const LeftComponent = ({name}) => {
 
     return <div style={{ backgroundColor: 'green'}}>
-      <h1 >Left</h1>;
+      <h1 >{name}</h1>;
     </div>
 }
 
-const RightComponent = () => {
+const RightComponent = (message) => {
+  // props without deconstruction
   return <div style={{ backgroundColor: 'red'}}>
-    <h1>Right</h1>
+    <h1>{message.message}</h1>
   </div>;
 }
 
@@ -23,8 +24,8 @@ const RightComponent = () => {
 function App() {
   return (
       <SplitScreen leftWeight={1} rightWeight={3} >
-        <LeftComponent />
-        <RightComponent />
+        <LeftComponent name="Sandeep"/>
+        <RightComponent message="Designing like pro"/>
       </SplitScreen>
   );
 }
