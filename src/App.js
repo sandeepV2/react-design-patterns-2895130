@@ -14,12 +14,18 @@ const RightComponent = () => {
   </div>;
 }
 
+// passing components as props to SplitScreen
+// How are you going to handle props if LeftComponent or RightComponent has it. 
+
+// More programmatic apporach would be to pass the components
+// as children, and props will be easily handled.
+
 function App() {
   return (
-      <SplitScreen left={LeftComponent} 
-      right={RightComponent}
-      leftWeight={1}
-      rightWeight={3} />
+      <SplitScreen leftWeight={1} rightWeight={3} >
+        <LeftComponent />
+        <RightComponent />
+      </SplitScreen>
   );
 }
 
