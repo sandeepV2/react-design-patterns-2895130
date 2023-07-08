@@ -20,3 +20,5 @@ Say we have 1 API and serving multiple siblings.
 * UserInfoLoader > 02_04e
 > Why not make UserLoader to generic any ResourceLoader (either people or product)
 * ResourceLoader > 02_05e
+> Goging 1 step ahead to make the data source generic (here we pass the async function as prop to get required data source -api/localstorage)
+* DataSourceLoader > 02_06e
