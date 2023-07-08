@@ -28,14 +28,14 @@ Say we have 1 API and serving multiple siblings.
 Controlled components - The component that has state/data passed from the parent component. 
 Uncontrolled components - Component that has its own state (useState). 
 
-Controlled components are preferred and good to reuse.
-Forms are most commonly used components.
+>Controlled components are preferred and good to reuse.
+>Forms are most commonly used components.
 
-Uncontolled Form > 03_02b 
-Controlled Form and how it is different from Uncontrolled Form > 03_03b
-Uncontrolled Modal to controlled Modal (show only at the will of parent component) > 03_04b
-Uncontrolled ways to onboarding flows (set of initial inputs while onboarding the user) > 03_05b - 03_05e
-Getting the data in uncotrolled flows > 03_06b
-Controlled onboarding flow > 03_07b
+* Uncontolled Form > 03_02b 
+* Controlled Form and how it is different from Uncontrolled Form > 03_03b
+* Uncontrolled Modal to controlled Modal (show only at the will of parent component) > 03_04b
+* Uncontrolled ways to onboarding flows (set of initial inputs while onboarding the user) > 03_05b - 03_05e
+* Getting the data in uncotrolled flows > 03_06b
+* Controlled onboarding flow > 03_07b
 
 
