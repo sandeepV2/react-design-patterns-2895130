@@ -3,13 +3,13 @@ Concepts that have i have learnt form the course are implemeted in respective br
 Each branch is organised as <branch><beginning> and <branch><ending> 
 Example :  01_02b > 01_02e (Explains split screen)
 
-Layout components.
+**Layout components.**
 
 * split screen > 01_02b
 * lists        > 01_04b
 * Modal        > 01_06b 
 
-Container components.
+**Container components.**
 
 Here author is covering concepts about, loading the API data into component. 
 Say we have 1 API and serving multiple siblings. 
@@ -22,3 +22,20 @@ Say we have 1 API and serving multiple siblings.
 * ResourceLoader > 02_05e
 > Goging 1 step ahead to make the data source generic (here we pass the async function as prop to get required data source -api/localstorage)
 * DataSourceLoader > 02_06e
+
+**Controlled vs Uncontrolled Components**
+
+Controlled components - The component that has state/data passed from the parent component. 
+Uncontrolled components - Component that has its own state (useState). 
+
+Controlled components are preferred and good to reuse.
+Forms are most commonly used components.
+
+Uncontolled Form > 03_02b 
+Controlled Form and how it is different from Uncontrolled Form > 03_03b
+Uncontrolled Modal to controlled Modal (show only at the will of parent component) > 03_04b
+Uncontrolled ways to onboarding flows (set of initial inputs while onboarding the user) > 03_05b - 03_05e
+Getting the data in uncotrolled flows > 03_06b
+Controlled onboarding flow > 03_07b
+
+
