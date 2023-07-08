@@ -13,8 +13,10 @@ Container components.
 
 Here author is covering concepts about, loading the API data into component. 
 Say we have 1 API and serving multiple siblings. 
+> Note the API server is defined in package.json with proxy.
 
 * CurrentUserLoader > 02_03e (The data loaded from the API is passed as props to children).
 > Previous solution is restricted to serving data of single user. The solution here is made generic to serve any user info by taking id. 
 * UserInfoLoader > 02_04e
-* 
+> Why not make UserLoader to generic any ResourceLoader (either people or product)
+* ResourceLoader > 02_05e
