@@ -38,4 +38,17 @@ Uncontrolled components - Component that has its own state (useState).
 * Getting the data in uncotrolled flows > 03_06b
 * Controlled onboarding flow > 03_07b
 
+**HOCs (higher order components).**
+
+Component --> <h1>JSX</h1>
+HOC --> SubComponent --> <h1>JSX</h1>
+
+It may be called as Component Factory with shared behaviour. Some what similir to Container components.
+
+* printProps (note it HOCs are wrapper around components and can have small case) > 04_02b
+* How to use HOCs for loading data > 04_03e
+* Modifying the loaded data (reset, update etc) > 04_04e and 04_05e **!important**__
+* Generalising the loading from user to Resource loader > 04_06e - 02_06e
+
+  
 
