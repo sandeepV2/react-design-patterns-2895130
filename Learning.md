@@ -40,8 +40,8 @@ Uncontrolled components - Component that has its own state (useState).
 
 **HOCs (higher order components).**
 
-Component --> <h1>JSX</h1>
-HOC --> SubComponent --> <h1>JSX</h1>
+Component --> <p1>JSX</p1>
+HOC --> SubComponent --> <p1>JSX</p1>
 
 It may be called as Component Factory with shared behaviour. Some what similir to Container components.
 
