@@ -59,5 +59,16 @@ It may be called as Component Factory with shared behaviour. Some what similir t
  * useResourceHook (get user or product resource data) > 05_04e
  * useDataSourceHook (get datasources from API or local storage) > 05_05e
 
+**Functional Programming**
+
+>It is method of organising the code in way that, 
+> minimizes state change, keeps functional components without the affect of external data(pure components).
+
+* Recursive Components > 06_02b
+  > Refers to themselves in the body of component. Ideal for dealing with nested object data.
+* Composition Components > 06_03b
+  > Create a different version of component reusing the same code (Ex: Version of button accross the UI).
+* Partialy applied components > 06_04b
+
 
  
