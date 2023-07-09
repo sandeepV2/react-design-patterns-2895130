@@ -50,5 +50,14 @@ It may be called as Component Factory with shared behaviour. Some what similir t
 * Modifying the loaded data (reset, update etc) > 04_04e and 04_05e **!important**__
 * Generalising the loading from user to Resource loader > 04_06e - 02_06e
 
-  
+ **Custom hooks**
 
+ Creating a user defined hooks using the inbuilt hooks such as (useState, useEffect etc). 
+
+ * useCurrentUser > 05_02b
+ * useUserHook (get any user by id) > 05_03e
+ * useResourceHook (get user or product resource data) > 05_04e
+ * useDataSourceHook (get datasources from API or local storage) > 05_05e
+
+
+ 
